@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna recipe</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
-    <h1>Lasagna</h1>
-    <img src="../images/lasagna.jpg" alt="lasagna image" height="500" width="500">
-    <h3>Description</h3>
-    <p>This classic lasagna is a comforting, hearty dish that combines layers of tender pasta, rich meat sauce, creamy ricotta, and melted mozzarella. Baked to golden perfection, it’s ideal for family dinners or meal prepping. The blend of herbs and slow-simmered tomato sauce gives it deep, satisfying flavor in every bite.</p>
+<body class="recipe-body">
+
+    <h1 style="color: rgb(2, 58, 55); text-align: center"">Lasagna</h1>
+    <img src="../images/lasagna.jpg" alt="lasagna image" height="300" width="300">
+
+    <div class="ingredients">
     <h3>Ingredients</h3>
     <ul>
         <li>12 lasagna noodles (oven-ready or boiled)</li>
@@ -23,6 +25,12 @@
         <li>1 tsp dried oregano</li>
         <li>Salt and pepper to taste</li>
     </ul>
+    </div>
+
+    <div class="step-description">
+    <h3>Description</h3>
+    <p>This classic lasagna is a comforting, hearty dish that combines layers of tender pasta, rich meat sauce, creamy ricotta, and melted mozzarella. Baked to golden perfection, it’s ideal for family dinners or meal prepping. The blend of herbs and slow-simmered tomato sauce gives it deep, satisfying flavor in every bite.</p>
+    
     <h3>Steps</h3>
     <ol>
         <li>Preheat oven to 375°F (190°C).</li>
@@ -33,6 +41,7 @@
         <li>Cover with foil and bake for 25 minutes. Remove foil and bake 10 more minutes until bubbly and golden.</li>
         <li>Let rest 10 minutes before serving.</li>
     </ol>
-    <a href="../index.html">Home</a> <br>
+    </div>
+    <button class="button-home"><a href="../index.html">Home</a></button><br>
 </body>
 </html>

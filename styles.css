@@ -1,0 +1,40 @@
+a {
+    text-decoration: none; 
+    color: white
+}
+
+.main{
+    background-color: aquamarine;
+}
+
+.main-links{
+    outline: solid rgb(5, 134, 93);
+    background-color: rgb(36, 150, 119);
+    
+}
+
+.recipe-body{
+    background-color: aquamarine;
+}
+
+.ingredients{
+    color: white;
+    background-color: rgb(36, 150, 119);
+    text-align: center;
+    float: right;
+    margin-right: 777px;
+    margin-top: 20px;
+    outline: solid rgb(5, 134, 93);
+}
+
+.button-home{
+    padding: 7px;
+    background-color: rgb(2, 38, 26);
+}
+
+.step-description{
+    color: white;
+    background-color: rgb(36, 150, 119);
+    outline: solid rgb(5, 134, 93);
+}
+
